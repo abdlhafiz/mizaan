@@ -1,0 +1,64 @@
+
+
+profile: {
+    id:
+    name:
+    fname:
+    gfname:
+    sex:
+    dob:
+    profession:
+    status:
+}
+address :{
+    id:
+    email:
+    phone1:
+    phone2:
+    city:
+    country:
+}
+members:{
+    id:
+    profile:
+    address:
+    donation:
+    status:
+}
+
+project:{
+    id:
+    name:
+    desc:
+    project_charter: url
+    project_proposal: url
+    project_location:
+
+    project_budget: {
+        source:
+        amount:
+    }
+    project_progress:
+    picture:[ {  name,        desc,        url    }]
+    video:[ {    name,        desc,        url    }]
+    status:
+
+}
+training:{
+    id:
+    name:
+    location:
+    audience: []
+    files: []
+    training_date:
+}
+campains:{
+    id:
+    amount:
+    project:
+    start_day:
+    end_day:
+    contributers:
+    status:
+
+}
